@@ -38,6 +38,13 @@ public class BitreeTest {
         biTree.levelTravel();
     }
 
+    @Test
+    public void construct_binary_tree_from_inorder_and_postorder_traversal(){
+        BiTree biTree=  BiTree.buildTree(new int[]{4,2,5,1,6,7,3,8},new int[]{4,5,2,6,7,8,3,1});
+        biTree.levelTravel();
+
+    }
+
 
 
     @Test
